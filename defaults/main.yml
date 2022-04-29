@@ -1,0 +1,6 @@
+---
+
+locales:
+  required:
+    - de_CH.UTF-8
+    - en_US.UTF-8

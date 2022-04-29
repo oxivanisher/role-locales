@@ -1,0 +1,7 @@
+---
+
+- name: ensure locales
+  community.general.locale_gen:
+    name: "{{ item }}"
+    state: present
+  loop: "{{ locales.required }}"
