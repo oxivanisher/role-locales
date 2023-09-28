@@ -1,6 +1,5 @@
 ---
-
-- name: ensure locales
+- name: Ensure locales
   community.general.locale_gen:
     name: "{{ item }}"
     state: present
