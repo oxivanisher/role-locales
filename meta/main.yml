@@ -51,5 +51,7 @@ galaxy_info:
   galaxy_tags:
     - locales
 
-dependencies:
-  - role: community.general.locale_gen
+dependencies: []
+
+collections:
+  - community.general
