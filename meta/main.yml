@@ -52,4 +52,5 @@ galaxy_info:
     - locales
 
 dependencies:
-  - role: community.general.locale_gen
+  []
+  # - role: community.general.locale_gen
