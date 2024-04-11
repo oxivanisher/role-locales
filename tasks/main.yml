@@ -4,3 +4,5 @@
     name: "{{ item }}"
     state: present
   loop: "{{ locales.required }}"
+  become: true
+  become_user: root
