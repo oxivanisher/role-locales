@@ -3,6 +3,6 @@
   community.general.locale_gen:
     name: "{{ item }}"
     state: present
-  loop: "{{ locales.required }}"
+  loop: "{{ locales_required }}"
   become: true
   become_user: root
