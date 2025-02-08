@@ -1,5 +1,6 @@
 locales
 =======
+[![Ansible Lint](https://github.com/oxivanisher/role-locales/actions/workflows/ansible-lint.yml/badge.svg)](https://github.com/oxivanisher/role-locales/actions/workflows/ansible-lint.yml)
 
 Configures locales on the system.
 
